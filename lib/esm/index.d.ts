@@ -1,5 +1,7 @@
 /// <reference types="react" />
-declare const SayHello: ({ name }: {
+export declare const SayHello: ({ name }: {
     name: string;
 }) => JSX.Element;
-export default SayHello;
+export declare const SayFuckU: ({ name }: {
+    name: string;
+}) => JSX.Element;

@@ -1,7 +1,14 @@
 import React from "react";
 
-const SayHello = ({ name }: { name: string }): JSX.Element => (
+export const SayHello = ({ name }: { name: string }): JSX.Element => (
   <div>Hey {name}, say hello to TypeScript.</div>
 );
 
-export default SayHello;
+export const SayFuckU = ({ name }: { name: string }): JSX.Element => (
+    <div>Hey {name},fuckk uu!.</div>
+  );
+
+
+  export const App = (): JSX.Element => (
+    <div>hello</div>
+  );
