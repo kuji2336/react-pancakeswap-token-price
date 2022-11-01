@@ -14,7 +14,19 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "pancakeswap",
+    "token price",
+    "BEP-20 token",
+    "pancakeswap API",
+    "pancakeswap API v2",
+    "react pancakeswap",
+    "react pancakeswap packages",
+    "live price",
+    "pancakeswap api",
+    "pancakeswap public api"
+  ],
   "author": "kujix",
   "license": "MIT",
   "devDependencies": {
